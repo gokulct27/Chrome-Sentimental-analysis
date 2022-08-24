@@ -41,16 +41,4 @@
 
    
    
-   Q.Ranking Data - Understanding the co-relation between keyword rankings with description or any other attribute.
-      Q1.Is there any co-relation between short description, long description and ranking? Does the placement of keyword (for example - using a keyword in the first 10       words - have any co-relation with the ranking)?
-      A. Yes, their is a co-relation between the short and long description that in the long description the comment start with bullet and the comment in the short           description have some what same values. And the ranking has no co-relation with both the description.
-      
-   Q2.Does APP ID (Also known as package name) play any role in ranking?  
-   A.Yes, it tell us that the ranking w.r.t to which app. Ranking is directly proposnal to App ID.
    
-   1. Write a regex to extract all the numbers with orange color background from the below text in italics.
-
-    {"orders":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10},{"id":11},{"id":648},{"id":649},{"id":650},{"id":651},     {"id":652},{"id":653}],"errors":[{"code":3,"message":"[PHP Warning #2] count(): Parameter must be an array or an object that implements Countable (153)"}]}
-    
-   A. (?<=:)\d+
-      
